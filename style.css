@@ -1,0 +1,172 @@
+body{
+	font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+.menu{
+	background: #000;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 1000;
+}
+.navbar{
+	max-width: 1000px;
+	margin: auto;
+}
+.navbar-brand{
+	font-family: 'Pacifico', cursive;
+	color: #e5474b !important;
+	font-size: 30px;
+}
+.navbar-brand:hover{
+	color:  #641618 !important;
+}
+.navbar ul li a{
+	color: #fff !important;
+	font-size: 14px !important;
+	margin-right: 10px;
+	transition: 0.5s;
+}
+.navbar button{
+    border: 1px solid #2f2f2f;
+}
+.navbar ul li a:hover{
+	color: #848484 !important;
+}
+.navbar i{
+	color: white !important;
+	font-size: 18px;
+}
+.banner{
+    height: 100vh;
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-position: 0 50px;
+}
+.banner .icerik{
+    position: relative;
+    top: 40%;
+    max-width: 1000px;
+    color: #fff;
+    margin: auto;
+}
+.banner .icerik h1{
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+.banner .icerik a{
+    font-size: 16px;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+@media screen and (max-width: 992px){
+    .navbar{
+        padding: 0 20px !important;
+    }
+    .banner {
+    height: 70vh;
+}
+    .banner .icerik{
+        padding: 0;
+    }
+}
+.bolum1 h2{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #e5474b;
+}
+.bolum1 p{
+    line-height: 30px;
+}
+.bolum1 a{
+    font-weight: 700;
+    border-radius: 0;
+    margin-bottom: 80px;
+}
+.bolum2 .part1{
+    background-color: #cecece;
+}
+.bolum2 .part2{
+    background-color: #f4f4f4;
+}
+.bolum2 .col-md-6{
+    padding: 100px 50px;
+}
+.bolum2 h3{
+    color: #e5474b;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.bolum2 img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.bolum2 p{
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+.bolum3 h4{
+    color: #e5474b;
+    font-weight: 600;
+}
+.bolum3{
+    text-align: center;
+
+
+}
+.bolum3 i{
+    margin: 40px 0;
+    font-size: 40px;
+    color: #848484;
+}
+.bolum3 {
+    padding: 80px 0;
+}
+.bolum3 .card-body{
+    height: 100%;
+}
+.bolum3 p{
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    text-align: justify;
+}
+.bolum3 .card{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.bolum4{
+    background-color: #e5474b;
+    padding-top: 80px;
+    color: #fff;
+}
+.bolum4 h5{
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.bolum4 input[type="text"]{
+	background: none;
+	border: 2px solid #ff747d;
+	color:white;
+}
+.bolum4 input[type="text"]:focus{
+	border:3px solid white;
+	box-shadow: none;
+}
+
+.bolum4 textarea{
+	background-color: transparent !important;
+	border: 2px solid #ff747d;
+	color:white !important;
+}
+.bolum4 textarea:focus{
+	border:3px solid white;
+	box-shadow: none;
+}
